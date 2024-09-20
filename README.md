@@ -2,9 +2,6 @@
 flutter_switch_panel 
 该仓库是封装的切换组件
 
-<img src="https://raw.githubusercontent.com/DMSkin/flutter_switch_panel/main/images/1.png" width='300'>
-<img src="https://raw.githubusercontent.com/DMSkin/flutter_switch_panel/main/images/2.png" width='300'>
-
 表情组件             |  功能组件
 :-------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/DMSkin/flutter_switch_panel/main/images/1.png" width='300'> |  <img src="https://raw.githubusercontent.com/DMSkin/flutter_switch_panel/main/images/2.png" width='300'>
