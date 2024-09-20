@@ -6,9 +6,13 @@ import 'package:flutter_switch_panel/flutter_switch_panel_controller.dart';
 class FlutterSwitchPanel extends StatefulWidget {
   const FlutterSwitchPanel({
     super.key,
+    this.panelHeight = 200,
     required this.children,
     required this.controller,
   });
+
+  // 容器高度
+  final double panelHeight;
 
   // 子页面
   final List children;
@@ -37,7 +41,7 @@ class _FlutterSwitchPanelState extends State<FlutterSwitchPanel>
     Widget? child;
     if (widget.controller.pageIndex >= 0) {
       // 工具箱
-      height = widget.controller.panelHeight;
+      height = widget.panelHeight;
       child = widget.children[widget.controller.pageIndex];
     } else {
       // 键盘
