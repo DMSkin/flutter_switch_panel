@@ -33,7 +33,8 @@ Scaffold(
 )
 
 SwitchPanel(
-controller: controller.switchPanelController,
+ panelHeight = 200,
+ controller: controller.switchPanelController,
  children: [
     // 表情组件
     _buildEmojiPanel(),
